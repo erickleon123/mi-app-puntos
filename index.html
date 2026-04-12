@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Apuestas Mundial - PocketBase</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🏆 Apuestas Mundial de Fútbol</h1>
+            <p>Sistema de puntos | Tiempo real</p>
+            <div class="admin-controls">
+                <button id="adminLoginBtn" class="btn-admin">🔐 Admin</button>
+                <button id="adminLogoutBtn" class="btn-logout" style="display:none;">🚪 Cerrar sesión</button>
+            </div>
+        </header>
+
+        <main>
+            <div id="tablaContainer"></div>
+            <div id="adminPanel" style="display:none;"></div>
+        </main>
+
+        <footer>
+            <p>Apuestas Mundial - Sistema de Puntos</p>
+        </footer>
+    </div>
+
+    <div id="loginModal" class="modal" style="display:none;"></div>
+    <div id="loadingSpinner" class="spinner-overlay" style="display:none;"></div>
+
+    <!-- Scripts -->
+    <script src="js/config.js"></script>
+    <script src="js/utils/constants.js"></script>
+    <script src="js/utils/formatters.js"></script>
+    <script src="js/utils/validators.js"></script>
+    <script src="js/modules/state.js"></script>
+    <script src="js/services/pocketbaseService.js"></script>
+    <script src="js/modules/auth.js"></script>
+    <script src="js/modules/session.js"></script>
+    <script src="js/modules/admin.js"></script>
+    <script src="js/modules/ui.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

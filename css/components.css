@@ -1,0 +1,48 @@
+/* Componentes adicionales */
+
+.card {
+    background: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+    margin-bottom: 15px;
+    color: #2e7d32;
+}
+
+.admin-section h2 {
+    margin-bottom: 20px;
+    color: #2e7d32;
+    border-bottom: 2px solid #2e7d32;
+    padding-bottom: 10px;
+}
+
+.btn-cancel {
+    background: #6c757d;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.btn-cancel:hover {
+    background: #5a6268;
+}
+
+.pozo-total {
+    background: linear-gradient(135deg, #ffd89b 0%, #c7e9fb 100%);
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pozo-total h3 {
+    margin: 0;
+    color: #2e7d32;
+}
