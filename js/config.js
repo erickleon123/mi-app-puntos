@@ -1,7 +1,7 @@
 // Configuración para PocketBase
 // ⚠️ CAMBIA ESTA URL por la que te dé Railway después del despliegue
 const CONFIG = {
-    POCKETBASE_URL: "mi-app-puntos-production.up.railway.app",  // ← CAMBIAR
+    POCKETBASE_URL: "https://mi-app-puntos-production.up.railway.app",  // ← CAMBIAR
     
     COLECCIONES: {
         APUESTAS: "apuestas",
