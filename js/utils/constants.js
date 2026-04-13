@@ -26,7 +26,7 @@ const EQUIPOS_DISPONIBLES = [
     "Argentina", "Brasil", "Francia", "Inglaterra", "España",
     "Alemania", "Holanda", "Portugal", "Bélgica", "Croacia",
     "Uruguay", "México", "Estados Unidos", "Japón", "Corea del Sur",
-    "Marruecos", "Senegal", "Camerún", "Ghana", "Australia"
+    "Marruecos", "Senegal", "Camerún", "Ghana", "Australia","Bolivia"
 ];
 
 const MENSAJES_ERROR = {
